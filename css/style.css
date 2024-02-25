@@ -1,0 +1,88 @@
+*{
+    font-family: "Kumbh Sans";
+    color: hsl(0, 0%, 59%);
+}
+
+body{
+    background-color: #1AA0AC;
+    background-image: url(../images/bg-pattern-top.svg), 
+    url(../images/bg-pattern-bottom.svg);
+    background-position: right 50vw bottom 45vh, 45vw 45vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.card *{
+    background-color: transparent;
+}
+
+.card{
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.548);
+}
+
+.conteudo img{
+    margin-top: -55px;
+    border: 5px solid white;
+    border-radius:50%;
+}
+
+.conteudo h2{
+    margin-top: 5px;
+    color: black;
+    font-size: 18px;
+}
+
+.conteudo p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 50px 0px;
+    width: 100%;
+}
+
+table h4{
+    margin-top: 15px;
+    font-size: 18px;
+    color: black;
+}
+
+table p{
+    margin-top: -20px;
+    font-size: 11px;
+    margin-bottom: 25px;
+}
+
+
+.footer {
+    color: black;
+    font-family: Verdana;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer a {
+    color: hsl(187, 100%, 50%);
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
